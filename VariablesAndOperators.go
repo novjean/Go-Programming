@@ -38,6 +38,10 @@ func main(){
 	var isOver40 bool = true
 	fmt.Printf("%t \n", isOver40)
 	
+	fmt.Println("true && false = ", true && false)
+	fmt.Println("true || false = ", true || false)
+	fmt.Println("!true = ", !true)
+	
 	fmt.Printf("%d \n", 100)
 	fmt.Printf("%b \n", 100) //binary
 	fmt.Printf("%c \n", 44) //character value
